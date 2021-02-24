@@ -32,10 +32,8 @@ def arithmetical_progression(x):
 
 
 if __name__ == '__main__':
-    print('Enter x value')
-    input_x_value = float(input())
-    print('Enter n value')
-    input_n_value = int(input())
+    input_x_value = float(input('Enter x value'))
+    input_n_value = int(input('Enter n value'))
 
     result_by_recursion = calc_by_recursion(input_x_value, input_n_value, 1)
     print(result_by_recursion)
