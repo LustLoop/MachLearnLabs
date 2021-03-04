@@ -1,9 +1,9 @@
-from Lab1.task1_1 import solve
+from Lab1 import task1_1
 from Lab1.task1_2 import solve_by_recursion, solve_by_while_cycle, solve_by_for_cycle
 
 
 def solve_task1():
-    solve()
+    task1_1.solve()
 
 
 def solve_task2_by_recursion():
