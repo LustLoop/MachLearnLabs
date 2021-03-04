@@ -2,7 +2,7 @@ import math
 import numpy
 
 
-def calculate_value():
+def solve():
     while True:
         print('Enter value')
         input_string = input()
@@ -39,7 +39,3 @@ def check_is_valid(x):
         print('Denominator is zero')
         return False
     return True
-
-
-if __name__ == '__main__':
-    calculate_value()
