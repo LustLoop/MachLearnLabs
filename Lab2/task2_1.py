@@ -12,5 +12,5 @@ def solve():
         x = random.randint(a, b)
         random_list.append(x)
 
-    print(random_list)
+    return random_list
 
