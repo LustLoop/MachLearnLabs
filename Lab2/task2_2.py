@@ -1,4 +1,4 @@
-from Lab2 import task2_1
+from Lab2.task2_1 import solve as generate_list
 
 
 def solve_without_generation():
@@ -11,10 +11,15 @@ def solve_without_generation():
 
 
 def solve_with_generation():
-    generated_list = task2_1.solve()
+    generated_list = generate_list()
+    print(generated_list)
     result = []
 
     for x in generated_list:
         if x < 0:
             result.append(x)
     print(result)
+
+
+solve_with_generation()
+

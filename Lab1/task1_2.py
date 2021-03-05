@@ -53,3 +53,6 @@ def solve_by_while_cycle():
 
     result_by_while_cycle = calc_by_while_cycle(input_x_value, input_n_value + 1)
     print(result_by_while_cycle)
+
+
+solve_by_recursion()

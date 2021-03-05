@@ -39,3 +39,6 @@ def check_is_valid(x):
         print('Denominator is zero')
         return False
     return True
+
+
+solve()

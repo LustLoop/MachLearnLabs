@@ -14,3 +14,6 @@ def solve():
 
     return random_list
 
+
+if __name__ == '__main__':
+    print(solve())
