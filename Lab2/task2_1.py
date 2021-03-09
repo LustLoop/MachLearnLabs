@@ -4,7 +4,7 @@ import random
 def solve():
     random_list = []
 
-    n = int(input('Enter value of "n"'))
+    n = int(input('Enter length of the list'))
     a = int(input('Enter value of "a"'))
     b = int(input('Enter value of "b"'))
 
