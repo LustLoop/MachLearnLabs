@@ -1,27 +1,20 @@
 # 5 var
 
-def remove_repeats():
-    result_list = []
-    repeated_chars_list = []
-    
-    input_line = input('Enter line')
-    list_of_chars = list(input_line)
-    previous_char = ''
-    for char in list_of_chars:
-        if char == previous_char:
-            if not (char in repeated_chars_list):
-                repeated_chars_list.append(char)
-        else:
-            result_list.append(char)
-        previous_char = char
+list1 = [1, 2, 3, 4, 5]
+list2 = [3, 5, 7, 8]
 
-    print(convert_to_string(result_list))
-    print(convert_to_string(repeated_chars_list))
+list_of_same = []
+list_of_different = []
 
+for element in list1:
+    if element in list2:
+        list_of_same.append(element)
+    else:
+        list_of_different.append(element)
 
-def convert_to_string(input_list):
-    result = ''
-    return result.join(input_list)
+for element in list2:
+    if not(element in list1) and not(element in list_of_different):
+        list_of_different.append(element)
 
-
-remove_repeats()
+print(list_of_same)
+print(list_of_different)
