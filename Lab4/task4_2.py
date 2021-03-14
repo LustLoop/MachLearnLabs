@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def solve():
     m = int(input('Enter M'))
     n = int(input('Enter N'))
